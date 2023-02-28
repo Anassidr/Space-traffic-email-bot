@@ -10,4 +10,4 @@ In order to do this:
     - A function that retrieves the list of astronauts from the API, converts it into a Pandas DataFrame, and compares it to the last df we had stored. 
     - If this function detects that there was a change in the list, an email is sent using the first function. 
 
-2. I created a cronjob that executes the script. This allows me to automatically run the script daily locally on my computer. 
+2. I created a cronjob that executes the script. This allows me to automatically run the script daily locally. 
