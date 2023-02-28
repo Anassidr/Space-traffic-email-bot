@@ -1,4 +1,4 @@
-# Space news!
+# Space news bot! 
 ## Exploiting a public API with Python to receive emails about Space traffic
 
 Given that I like space-related things, I wrote a script to receive an email everytime an astronaut leaves or goes into space (to the International Space Station for e.g) 
