@@ -61,7 +61,7 @@ def compare_traffic():
 
         #send email in case there is change in df 
         receiver_emails = ["anasskamal.id@gmail.com"]
-        message = 'Subject: {}\n\n{}'.format("Space news bitch!", message)
+        message = 'Subject: {}\n\n{}'.format("Space news!", message)
 
         for email in receiver_emails:
             kindbot_emails(email, message)
