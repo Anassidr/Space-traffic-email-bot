@@ -61,7 +61,7 @@ def compare_traffic():
 
         message += f"Have a nice day"
 
-        # df.to_csv(path, index=False) #overwrite old df with new df 
+        df.to_csv(path, index=False) #overwrite old df with new df 
 
         #send email in case there is change in df 
         receiver_emails = ["anasskamal.id@gmail.com"]
