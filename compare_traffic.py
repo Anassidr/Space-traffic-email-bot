@@ -57,6 +57,10 @@ def compare_traffic():
         for i in range(len(arrivals)): 
             message += f"{arrivals.iloc[i][0]} has entered space ({arrivals.iloc[i][1]}) \n"
 
+        message += f"There are currently {data['number']} astronauts in Space :) \n"
+
+        message += f"Have a nice day"
+
         # df.to_csv(path, index=False) #overwrite old df with new df 
 
         #send email in case there is change in df 
