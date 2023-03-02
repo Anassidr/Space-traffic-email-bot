@@ -59,7 +59,7 @@ def compare_traffic():
 
         message += f"There are currently {data['number']} astronauts in Space :) \n"
 
-        message += f"Have a nice day"
+        message += f"Have a nice day, \nkindpythonbot"
 
         df.to_csv(path, index=False) #overwrite old df with new df 
 
